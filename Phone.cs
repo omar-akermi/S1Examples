@@ -12,7 +12,7 @@ namespace ExampleMod.QuestTest
     /// This class leverages the PhoneApp framework to specify application-specific properties like name, title,
     /// icon label, and icon file name. It also overrides the method for defining the user interface layout upon creation.
     /// </remarks>
-    public class MyAwesomeApp : PhoneApp
+    public class MyAwesomeApp : S1API.PhoneApp.PhoneApp
     {
         protected override string AppName => "test";
         protected override string AppTitle => "My test App";
