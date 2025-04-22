@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>C:\Users\Akermi\Documents\Documents\GitHub\S1API\ScheduleOneAssemblies\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2CppInterop.Runtime">
+          <HintPath>..\..\Documents\GitHub\S1API\S1API\bin\Il2Cpp\netstandard2.1\Il2CppInterop.Runtime.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2Cppmscorlib">
+          <HintPath>..\..\Documents\GitHub\S1API\S1API\bin\Il2Cpp\netstandard2.1\Il2Cppmscorlib.dll</HintPath>
+        </Reference>
+        <Reference Include="MelonLoader">
+            <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Schedule I - Copy\MelonLoader\net6\MelonLoader.dll</HintPath>
+        </Reference>
+        <Reference Include="S1API">
+            <HintPath>C:\Users\Akermi\Documents\GitHub\S1API\S1API\bin\Il2Cpp\netstandard2.1\S1API.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine">
+          <HintPath>..\..\Documents\GitHub\S1API\S1API\bin\Il2Cpp\netstandard2.1\UnityEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+          <HintPath>..\..\Documents\GitHub\S1API\S1API\bin\Il2Cpp\netstandard2.1\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+</Project>
